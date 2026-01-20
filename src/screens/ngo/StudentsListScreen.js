@@ -12,6 +12,7 @@ import { useTheme } from "../../context/ThemeContext";
 import * as api from "../../../apis/api";
 
 export default function StudentsListScreen({ college, eventId: propEventId }) {
+  //added line for testing git commit
   // eventId is passed as prop (not using react-navigation)
   const eventId = propEventId;
 
